@@ -1,0 +1,9 @@
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\bin\Debug\PracticeProgramming.exe.config
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\bin\Debug\PracticeProgramming.exe
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\bin\Debug\PracticeProgramming.pdb
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\bin\Debug\nunit.framework.dll
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\bin\Debug\nunit.framework.xml
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\obj\Debug\PracticeProgramming.csprojResolveAssemblyReference.cache
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\obj\Debug\PracticeProgramming.csproj.CoreCompileInputs.cache
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\obj\Debug\PracticeProgramming.exe
+C:\Users\Pham\Coding Projects\VS\Programming-Practice\PracticeProgramming\PracticeProgramming\obj\Debug\PracticeProgramming.pdb
