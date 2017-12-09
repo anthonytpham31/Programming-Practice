@@ -49,10 +49,10 @@
     <Compile Include="BasicAlgorithm\Main\SimpleFizzBuzz.cs" />
     <Compile Include="BasicAlgorithm\Tests\FibonacciTests.cs" />
     <Compile Include="BasicAlgorithm\Tests\SimpleFizzBuzzTests.cs" />
-    <Compile Include="InterfaceExamples\RationalNumbers\Rational.cs" />
-    <Compile Include="InterfaceExamples\RationalNumbers\SimplifiedRational.cs" />
-    <Compile Include="InterfaceExamples\Tests\RationalTests.cs" />
-    <Compile Include="InterfaceExamples\Tests\SimplifiedRationalTests.cs" />
+    <Compile Include="InheritanceExamples\RationalNumbers\Rational.cs" />
+    <Compile Include="InheritanceExamples\RationalNumbers\SimplifiedRational.cs" />
+    <Compile Include="InheritanceExamples\Tests\RationalTests.cs" />
+    <Compile Include="InheritanceExamples\Tests\SimplifiedRationalTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

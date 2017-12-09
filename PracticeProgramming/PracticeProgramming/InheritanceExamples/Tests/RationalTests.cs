@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace PracticeProgramming.InterfaceExamples.Tests
+namespace PracticeProgramming.InheritanceExamples.Tests
 {
     [TestFixture]
     public class RationalTests
