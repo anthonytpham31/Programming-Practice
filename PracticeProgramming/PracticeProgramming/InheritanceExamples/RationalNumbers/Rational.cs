@@ -7,8 +7,7 @@ namespace PracticeProgramming.InheritanceExamples.RationalNumbers
         public virtual int Numerator { get; set; }
         public virtual int Denominator { get; set; }
 
-
-        public Rational(int numerator, int denominator)
+        protected Rational(int numerator, int denominator)
         {
             throw new NotImplementedException();
         }

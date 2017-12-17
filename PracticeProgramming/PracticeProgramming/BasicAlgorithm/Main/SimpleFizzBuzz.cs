@@ -27,7 +27,6 @@ namespace PracticeProgramming.BasicAlgorithm.Main
         /// </summary>
         public bool IsFirstNumberDivisibleBySecondNumber(int first, int second)
         {
-
             throw new NotImplementedException();
         }
 
@@ -61,7 +60,6 @@ namespace PracticeProgramming.BasicAlgorithm.Main
         public string[] GetDivisibilityMessagesAcrossRange(int start, int end)
         {
             throw new NotImplementedException();
-
         }
     }
 }
