@@ -18,25 +18,25 @@ namespace PracticeProgramming.BasicAlgorithm.Main
     {
         /// <summary>
         /// Checks whether a given int `a` is evenly divisible by a given int `b` or not.
-        /// For example, `divides(4, 2)` returns `true` and `divides(4, 3)` returns `false`.
+        /// For example, `CheckDivisibility(4, 2)` returns `true` and `CheckDivisibility(4, 3)` returns `false`.
         /// 
         /// @param a the number to be divided
         /// @param b the number to divide by
         /// @return `true` if a is evenly divisible by b, `false` otherwise
-        /// @throws IllegalArgumentException if b is zero
+        /// @throws ArgumentException if b is zero
         /// </summary>
-        public bool IsFirstNumberDivisibleBySecondNumber(int first, int second)
+        public bool CheckDivisibility(int a, int b)
         {
             throw new NotImplementedException();
         }
 
         /// <summary>
         /// Generates a divisibility message for a given number.
-        /// Returns null if the given number is not divisible by 3 or 5.
+        /// Returns original number if the given number is not divisible by 3 or 5.
         /// Message formatting examples:
-        /// 1 -> null // not divisible by 3 or 5
-        /// 3 -> "3: Fizz" // divisible by only 3
-        /// 5 -> "5: Buzz" // divisible by only 5
+        /// 1 -> 1 // not divisible by 3 or 5
+        /// 9 -> "9: Fizz" // divisible by only 3
+        /// 10 -> "10: Buzz" // divisible by only 5
         /// 15 -> "15: FizzBuzz" // divisible by both three and five
         /// 
         /// @param n the number to generate a message for
@@ -55,7 +55,7 @@ namespace PracticeProgramming.BasicAlgorithm.Main
         /// @param start the number to start with (inclusive)
         /// @param end the number to end with (exclusive)
         /// @return an array of divisibility messages
-        /// @throws IllegalArgumentException if the given end is less than the given start
+        /// @throws ArgumentException if the given end is less than the given start
         /// </summary>
         public string[] GetDivisibilityMessagesAcrossRange(int start, int end)
         {

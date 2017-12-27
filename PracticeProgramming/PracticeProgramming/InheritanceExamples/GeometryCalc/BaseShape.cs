@@ -1,6 +1,10 @@
 ﻿namespace PracticeProgramming.InheritanceExamples.GeometryCalc
 {
-    public class BaseShape
+    public abstract class BaseShape
     {
+        public virtual string GetName()
+        {
+            return "";
+        }
     }
 }

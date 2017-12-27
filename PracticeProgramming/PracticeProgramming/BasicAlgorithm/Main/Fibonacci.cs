@@ -16,66 +16,40 @@ namespace PracticeProgramming.BasicAlgorithm.Main
         /// 
         /// @param count the number of elements to calculate
         /// @return the beginning of the fibonacci sequence, up to the given count, as an array of long elements
-        /// @throws IllegalArgumentException if the given count is negative
+        /// @throws ArgumentException if the given count is negative
         /// </summary>
         public long[] FibonacciSequenceUpTo(int count)
-        {
-            var fibonacci = new long[count];
-
-            switch (count)
-            {
-                case 0:
-                    break;
-                case 1:
-                    fibonacci[0] = 1;
-                    break;
-                case 2:
-                    fibonacci[0] = fibonacci[1] = 1;
-                    break;
-                default:
-                    fibonacci[0] = fibonacci[1] = 1;
-
-                    for (var i = 2; i < count; i++)
-                    {
-                        fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-                    }
-                    break;
-            }
-
-            return fibonacci;
-        }
-
-        /// <summary>
-        /// Calculates the value in the Fibonacci sequence at a given index. For example,
-        /// `atIndex(0)` and `atIndex(1)` should return `1`, because the first two elements of the
-        /// sequence are both `1`.
-        /// 
-        /// @param i the index of the element to calculate
-        /// @return the calculated element
-        /// @throws IllegalArgumentException if the given index is less than zero
-        /// </summary>
-        public long ValueAtIndex(int i)
         {
             throw new NotImplementedException();
         }
 
         /// <summary>
         /// Calculates the value in the Fibonacci sequence at a given index. For example,
-        /// `atIndex(0)` and `atIndex(1)` should return `1`, because the first two elements of the
+        /// `ValueAtIndex(0)` and `ValueAtIndex(1)` should return `1`, because the first two elements of the
         /// sequence are both `1`.
         /// 
         /// @param i the index of the element to calculate
         /// @return the calculated element
-        /// @throws IllegalArgumentException if the given index is less than zero
+        /// @throws ArgumentException if the given index is less than zero
+        /// </summary>
+        public long ValueAtIndex(int index)
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// Calculates a slice of the fibonacci sequence, starting from a given start index (inclusive) and
+        /// ending at a given end index (exclusive).
+        /// 
+        /// @param start the starting index of the slice(inclusive)
+        /// @param end   the ending index of the slice(exclusive)
+        /// @return the calculated slice as an array of int elements
+        /// @throws IllegalArgumentException if either the given start or end is negative, or if the
+        ///     given end is less than the given start
         /// </summary>
         public long[] SliceOfSequence(int start, int end)
         {
             throw new NotImplementedException();
-        }
-
-        public Fibonacci()
-        {
-
         }
     }
 }

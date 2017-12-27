@@ -53,6 +53,7 @@
     <Compile Include="BasicAlgorithm\Tests\FibonacciTests.cs" />
     <Compile Include="BasicAlgorithm\Tests\SimpleFizzBuzzTests.cs" />
     <Compile Include="InheritanceExamples\GeometryCalc\BaseShape.cs" />
+    <Compile Include="InheritanceExamples\GeometryCalc\IShape.cs" />
     <Compile Include="InheritanceExamples\RationalNumbers\Rational.cs" />
     <Compile Include="InheritanceExamples\RationalNumbers\SimplifiedRational.cs" />
     <Compile Include="InheritanceExamples\Tests\GeometryCalcTests.cs" />
