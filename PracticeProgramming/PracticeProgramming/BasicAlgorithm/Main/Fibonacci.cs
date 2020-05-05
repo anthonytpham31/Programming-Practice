@@ -20,7 +20,8 @@ namespace PracticeProgramming.BasicAlgorithm.Main
         /// </summary>
         public long[] FibonacciSequenceUpTo(int count)
         {
-            throw new NotImplementedException();
+            long[] testVariable = new long[2] { 1,1};
+            return testVariable;
         }
 
         /// <summary>
